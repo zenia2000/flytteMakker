@@ -1,0 +1,25 @@
+.greenBtn{
+    background: green;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.greenBtn:hover{
+    background: greenyellow;
+    color: black;
+}
+
+.cBtn{
+    background: palevioletred;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 15px;
+}
+
