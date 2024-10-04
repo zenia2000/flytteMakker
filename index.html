@@ -1,3 +1,6 @@
+<script src="https://ajax.googleapis.com/ajax/libs/
+jquery/3.7.1/jquery.min.js"></script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,30 +12,38 @@
 
 <div>
     <h2>Flytte Makker</h2>
+</div>
+
+
+<!-- Viser arrayet i en tabel-->
+    <table class="">
+        <tr class="">
+            <th>Dato</th>
+            <th>Beskrivelse</th>
+        </tr>
+
+        <tbody id="myTable">
+
+
+        </tbody>
+    </table>
+
+
 
 
 <!-- Can give 2 classes at the same time class="longBtn greenBtn" -->
     <button class="greenBtn" type="button" onclick="alert('the button works')">tilføj</button>
 
+<!--Attempt at adding new data/tasks to the table -->
+<div>
+    <input type="text">
+    <input type="text">
+<button>Tilføj ny</button>
 </div>
-
-
-<!-- Viser arrayet genstande-->
-<!-- <p id="taskList"></p> -->
-
-<ul id="taskList"></ul>
-
-<button onclick="showId(idCount)">ID</button>
-
-<div class="cBtn" onclick="" >
-
-</div>
-
-<button class="cBtn" type="button" onclick=" removeFunc()">fjern</button>
 
 <!-- cBtn er CustomButton -->
 <div class="cBtn">
-    <a href="add.html" target="_self">Tilføj ny genstand</a>
+    <a href="add.html" target="_self">Til add siden</a>
 </div>
 
 
