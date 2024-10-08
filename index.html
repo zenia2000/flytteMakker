@@ -5,7 +5,7 @@ jquery/3.7.1/jquery.min.js"></script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Flyttemakker</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,37 +16,65 @@ jquery/3.7.1/jquery.min.js"></script>
 
 
 <!-- Viser arrayet i en tabel-->
-    <table class="">
-        <tr class="">
-            <th>Dato</th>
-            <th>Beskrivelse</th>
+<div class="strukture">
+    <table class="tableStyle">
+        <tr class="tableStyle-top">
+            <th>Id</th>
+            <th>Eksterne link</th>
+            <th>Beskrivelse af opgave</th>
+            <th>Færdig</th>
+            <th>Mangler</th>
+
         </tr>
 
         <tbody id="myTable">
 
-
         </tbody>
+
     </table>
 
 
 
+    <div class="box" >
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="checkbox">
+    </div>
+
+    <div class="box" >
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+    </div>
+
+</div>
+
+<div class="topSpacing">
+<button class="cBtn redBtn" id="myBtn">Ryd Alt</button>
+
+<button class="cBtn redBtn" id="red">Highligth Alt</button>
+
+<button class="cBtn blueBtn">
+    <a class="page" href="add.html" target="_self">Tilføj ny opgave</a>
+</button>
+</div>
+
+<div class="spacing">
+    <p> </p>
+</div>
 
 <!-- Can give 2 classes at the same time class="longBtn greenBtn" -->
-    <button class="greenBtn" type="button" onclick="alert('the button works')">tilføj</button>
+<div class="buyBox spacing">
+    <h2>Indkøbs liste</h2>
+    <input id="input" type="text">
+    <button class="cBtn greenBtn" type="button" id="add" onclick="alert('tilføjet til indkøb')">Tilføj til indkøbsliste</button>
+    <ul></ul>
+    <label>Fjern det sidste fra listen</label>
+    <button class="cBtn redBtn" type="button" id="delete" onclick="alert('fjernet fra indkøb')">Fjern fra indkøbsliste</button>
 
-<!--Attempt at adding new data/tasks to the table -->
-<div>
-    <input type="text">
-    <input type="text">
-<button>Tilføj ny</button>
 </div>
-
-<!-- cBtn er CustomButton -->
-<div class="cBtn">
-    <a href="add.html" target="_self">Til add siden</a>
-</div>
-
-
 
 <script src="java.js"></script>
 </body>
